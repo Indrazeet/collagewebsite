@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.wbtn {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.top {
+  background: #B62033;
+  font-weight: lighter;
+}
+
+.top-mid {
+  font-size: 18px;
+  padding: 16.5px 0 10.5px 0;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: -43px;
+}
+
+.bg-light {
+  height: 100px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.search {
+  width: 38px;
+  height: 38px;
+  background: black;
+  border-radius: 50%;
+  line-height: 38px;
+  margin-left: 50px;
+}
+
+.fa-search:before {
+  color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../img/a.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/a.jpg);
+  background-size: cover;
+  height: 712px;
+}
+
+.banner .content {
+  padding-top: 5rem;
+}
+
+.banner .content h4 {
+  font-family: Oswald;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .banner .content h4 {
+    font-size: 16px;
+  }
+}
+
+.banner .content h1 {
+  font-family: Oswald;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 119px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .banner .content h1 {
+    font-size: 26px;
+  }
+}
+
+.banner .content .bgbtn {
+  border-radius: 0;
+}
+
+.down {
+  margin-top: 180px;
+}
+
+.icons {
+  background: rgba(247, 192, 59, 0.5);
+  height: 224px;
+}
+
+.icons1 {
+  background: rgba(34, 43, 82, 0.5);
+  height: 224px;
+}
+
+.icons2 {
+  background: rgba(182, 32, 51, 0.5);
+  height: 224px;
+}
+
+.about {
+  padding: 8rem 0rem;
+}
+
+.about-right {
+  padding-left: 9.9rem;
+}
+
+.about-right p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 170%;
+}
+
+.about-right a {
+  font-family: 'Oswald',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  padding: 1rem;
+  border-radius: 0;
+}
+
+.about .about-left h1 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 74px;
+  line-height: 110px;
+  border-left: 7px solid #F7C03B;
+}
+
+.courses {
+  background: black;
+  overflow: hidden;
+}
+
+.courses-title {
+  color: #fff;
+}
+
+.courses-title h1 {
+  font-size: 60px;
+  -webkit-transform: rotate(-90deg) translate(-250px, -20px);
+          transform: rotate(-90deg) translate(-250px, -20px);
+  white-space: pre;
+}
+
+.sboximg {
+  position: relative;
+}
+
+.sboximg .sboxc {
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.sboximg .sboxc h1 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.sboximg .sboxc p {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.owl-nav {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  width: 80%;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  width: 20px;
+  height: 30px;
+  right: 0;
+  left: 100%;
+  position: absolute;
+  font-size: 60px;
+  font-weight: 50;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  left: 0;
+  font-size: 60px;
+  font-weight: 50;
+}
+
+.quote h2 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+  font-size: 20px;
+}
+
+.upcomig h1 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 96px;
+}
+
+.events .events-img {
+  position: relative;
+}
+
+.events .date {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  left: 7rem;
+  background: #fff;
+}
+
+.events .date p {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.events .date h3 {
+  color: #B62033;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.main-banner {
+  position: relative;
+  color: #fff;
+}
+
+.main-banner img {
+  width: 100%;
+  background-size: cover;
+}
+
+.main-banner .main-collage-left {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.main-banner .main-collage-left .brd-left {
+  border-left: #F7C03B solid 8px;
+}
+
+.main-banner .main-collage-left .brd-left h1 {
+  font-family: 'Oswald',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 74px;
+  line-height: 110px;
+  margin-left: 30px;
+}
+
+.main-banner .main-collage-left p {
+  font-family: 'oswald' ,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 170%;
+  margin-left: 45px;
+}
+
+.main-banner .main-collage-left a {
+  margin-left: 45px;
+}
+
+.main-banner .main-collage-right {
+  position: absolute;
+  top: 0%;
+  right: 0;
+  width: 49%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7)));
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .navbar-light .navbar-toggler {
+    position: absolute;
+    right: 0;
+    top: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-nav {
+    background: #fff;
+    padding-top: 120px;
+  }
+}
+
+@media (max-width: 500px) {
+  .searchp {
+    position: relative;
+  }
+}
+
+@media (max-width: 500px) {
+  .search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
